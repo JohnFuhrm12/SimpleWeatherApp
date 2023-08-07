@@ -50,8 +50,21 @@ html, body {
 
 #forecastContent {
     background-color: rgba(0, 0, 0, 0.592);
-    max-width: 40%;
+    max-width: 70%;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 5%;
     border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.dayContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.displayTextDay {
+    color: white;
+    font-size: 30px;
 }
